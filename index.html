@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StepLux | Premium Sandals</title>
+  <meta name="description" content="Elegant summer sandals designed for comfort, durability, and style. Now available at StepLux for only £19.99.">
+
+  <!-- Canonical + OG + Twitter -->
+  <link rel="canonical" href="https://ventacenter.com/">
+  <meta property="og:title" content="StepLux Sandals">
+  <meta property="og:description" content="Elegant summer sandals designed for style, comfort, and durability. Available now for £19.">
+  <meta property="og:image" content="https://ventacenter.com/images/sandal-hero.jpg">
+  <meta property="og:url" content="https://ventacenter.com/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "StepLux Sandals",
+    "image": ["https://ventacenter.com/images/sandal-hero.jpg"],
+    "description": "Premium sandals crafted for style, comfort, and durability. Ideal for summer and daily wear.",
+    "brand": { "@type": "Brand", "name": "StepLux" },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://ventacenter.com/#details",
+      "priceCurrency": "GBP",
+      "price": "19.00",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #fafafa; color: #222; line-height: 1.6; }
+    header { background: #fff; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 1000; }
+    .top-bar { background: #e0f7fa; color: #006064; font-size: 14px; padding: 8px; text-align: center; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; }
+    nav .logo { font-weight: 800; font-size: 24px; }
+    nav ul { list-style: none; display: flex; gap: 24px; }
+    nav ul li a { font-weight: 600; color: #333; text-decoration: none; }
+
+    .hero { display: flex; flex-wrap: wrap; align-items: center; padding: 60px 20px; background: #fff; }
+    .hero-content { flex: 1; padding: 20px; min-width: 300px; }
+    .hero-content h1 { font-size: 36px; font-weight: 800; margin-bottom: 16px; }
+    .hero-content p { font-size: 18px; margin-bottom: 24px; }
+    .btn { background: #004d40; color: #fff; padding: 14px 28px; border: none; font-weight: 600; border-radius: 4px; cursor: pointer; }
+    .btn:hover { background: #002d2b; }
+    .hero-image { flex: 1; padding: 20px; }
+
+    .details, .gallery, .reviews, .faq { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+    .details h2, .reviews h2, .faq h2 { font-size: 28px; margin-bottom: 20px; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .price { font-size: 32px; font-weight: 700; color: #2e7d32; margin: 20px 0; }
+    .buy-area { display: flex; gap: 16px; }
+
+    .gallery img { width: 100%; height: auto; margin-bottom: 16px; border-radius: 8px; }
+
+    .review-card { background: #fff; border: 1px solid #ddd; padding: 20px; border-radius: 6px; margin-bottom: 20px; }
+    .author { font-weight: 600; text-align: right; }
+
+    details { background: #fff; border: 1px solid #ccc; padding: 16px; margin-bottom: 12px; border-radius: 4px; }
+    summary { font-weight: 600; cursor: pointer; }
+
+    footer { text-align: center; background: #111; color: #fff; padding: 20px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <div class="top-bar">Free UK delivery on orders over £50</div>
+    <nav>
+      <div class="logo">STEPLUX</div>
+      <ul>
+        <li><a href="#details">Details</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Elegant Summer Sandals</h1>
+      <p>Stylish, breathable and bold. The sandals that complete any outfit — with comfort.</p>
+      <button class="btn">See Details</button>
+    </div>
+    <div class="hero-image">
+      <img src="images/sandal-hero.jpg" alt="Premium Sandals">
+    </div>
+  </section>
+
+  <section class="details" id="details">
+    <h2>Product Details</h2>
+    <div class="features">
+      <div>- Breathable design for summer wear</div>
+      <div>- Soft but durable sole with traction</div>
+      <div>- Fashion-forward look for men and women</div>
+      <div>- Lightweight & perfect for long days</div>
+    </div>
+    <div class="price">£19.00 GBP</div>
+    <div class="buy-area">
+      <input type="number" value="1" min="1">
+      <button class="btn">Add to Cart</button>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <img src="images/sandal-1.jpg" alt="Sandals View 1">
+    <img src="images/sandal-2.jpg" alt="Sandals View 2">
+    <img src="images/sandal-3.jpg" alt="Sandals View 3">
+    <img src="images/sandal-4.jpg" alt="Sandals View 4">
+  </section>
+
+  <section class="reviews" id="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="review-card">
+      <p>“These sandals feel like walking on clouds. Light, stylish, and comfortable.”</p>
+      <div class="author">- Emma J.</div>
+    </div>
+    <div class="review-card">
+      <p>“Great for all-day wear. Took them on holiday — perfect for every outfit.”</p>
+      <div class="author">- Liam K.</div>
+    </div>
+    <div class="review-card">
+      <p>“The quality surprised me for the price. Durable and sleek.”</p>
+      <div class="author">- Sophia L.</div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>Are these sandals true to size?</summary>
+      <p>Yes, they run true to size. If you're between sizes, we recommend sizing up.</p>
+    </details>
+    <details>
+      <summary>Can I wear them all day?</summary>
+      <p>Absolutely. They are designed for maximum comfort during long wear.</p>
+    </details>
+    <details>
+      <summary>Are they water resistant?</summary>
+      <p>They can handle light splashes, but aren't meant for full water immersion.</p>
+    </details>
+    <details>
+      <summary>Do they come in a box?</summary>
+      <p>Yes, they arrive in minimalist packaging ideal for gifting or travel.</p>
+    </details>
+  </section>
+
+  <footer>
+    &copy; 2025 StepLux. All rights reserved. | <a href="#faq" style="color: #91e5c1;">Privacy Policy</a>
+  </footer>
+  <script src="https://connect.domains-twr.com/js/index.js"></script>
+</body>
+</html>
